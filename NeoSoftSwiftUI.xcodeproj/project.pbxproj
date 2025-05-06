@@ -14,6 +14,10 @@
 		14CF3A322DC96C1F000D7BC9 /* NeoSoftSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A312DC96C1F000D7BC9 /* NeoSoftSwiftUITests.swift */; };
 		14CF3A3C2DC96C1F000D7BC9 /* NeoSoftSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A3B2DC96C1F000D7BC9 /* NeoSoftSwiftUIUITests.swift */; };
 		14CF3A3E2DC96C1F000D7BC9 /* NeoSoftSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A3D2DC96C1F000D7BC9 /* NeoSoftSwiftUIUITestsLaunchTests.swift */; };
+		14CF3A4E2DC96D44000D7BC9 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A4B2DC96D44000D7BC9 /* HomeViewModel.swift */; };
+		14CF3A4F2DC96D44000D7BC9 /* HomeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A4D2DC96D44000D7BC9 /* HomeModel.swift */; };
+		14CF3A522DC96E46000D7BC9 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A512DC96E46000D7BC9 /* HomeView.swift */; };
+		14CF3A552DC9C670000D7BC9 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14CF3A542DC9C670000D7BC9 /* Splash.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,10 @@
 		14CF3A372DC96C1F000D7BC9 /* NeoSoftSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NeoSoftSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		14CF3A3B2DC96C1F000D7BC9 /* NeoSoftSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftSwiftUIUITests.swift; sourceTree = "<group>"; };
 		14CF3A3D2DC96C1F000D7BC9 /* NeoSoftSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeoSoftSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		14CF3A4B2DC96D44000D7BC9 /* HomeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		14CF3A4D2DC96D44000D7BC9 /* HomeModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeModel.swift; sourceTree = "<group>"; };
+		14CF3A512DC96E46000D7BC9 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		14CF3A542DC9C670000D7BC9 /* Splash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Splash.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +104,10 @@
 			children = (
 				14CF3A202DC96C1D000D7BC9 /* NeoSoftSwiftUIApp.swift */,
 				14CF3A222DC96C1D000D7BC9 /* ContentView.swift */,
+				14CF3A532DC9C64A000D7BC9 /* SplashScreen */,
+				14CF3A502DC96DCA000D7BC9 /* View */,
+				14CF3A4C2DC96D44000D7BC9 /* Model */,
+				14CF3A4A2DC96D44000D7BC9 /* ViewModel */,
 				14CF3A242DC96C1F000D7BC9 /* Assets.xcassets */,
 				14CF3A262DC96C1F000D7BC9 /* Preview Content */,
 			);
@@ -125,6 +137,38 @@
 				14CF3A3D2DC96C1F000D7BC9 /* NeoSoftSwiftUIUITestsLaunchTests.swift */,
 			);
 			path = NeoSoftSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		14CF3A4A2DC96D44000D7BC9 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				14CF3A4B2DC96D44000D7BC9 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		14CF3A4C2DC96D44000D7BC9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				14CF3A4D2DC96D44000D7BC9 /* HomeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		14CF3A502DC96DCA000D7BC9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				14CF3A512DC96E46000D7BC9 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		14CF3A532DC9C64A000D7BC9 /* SplashScreen */ = {
+			isa = PBXGroup;
+			children = (
+				14CF3A542DC9C670000D7BC9 /* Splash.swift */,
+			);
+			path = SplashScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +301,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14CF3A4F2DC96D44000D7BC9 /* HomeModel.swift in Sources */,
 				14CF3A232DC96C1D000D7BC9 /* ContentView.swift in Sources */,
+				14CF3A4E2DC96D44000D7BC9 /* HomeViewModel.swift in Sources */,
+				14CF3A522DC96E46000D7BC9 /* HomeView.swift in Sources */,
+				14CF3A552DC9C670000D7BC9 /* Splash.swift in Sources */,
 				14CF3A212DC96C1D000D7BC9 /* NeoSoftSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
